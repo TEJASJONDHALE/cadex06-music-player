@@ -1,0 +1,15 @@
+@import "util.css";
+
+@import "track.css";
+@import "search.css";
+@import "list.css";
+
+body {
+  height: 100vh;
+}
+
+header {
+  height: 5rem;
+  background: #dd4151;
+
+}

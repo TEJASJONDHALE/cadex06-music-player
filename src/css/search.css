@@ -1,0 +1,31 @@
+#search-container {
+  font-family: Arial, sans-serif;
+
+  >* {
+    outline: none;
+
+    border: none;
+    border-radius: var(--pill);
+  }
+
+  #search-input {
+    padding: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    font-size: 16px;
+    width: 300px;
+    background-color: #333;
+  }
+
+  #search-button {
+    background-color: #1DB954;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #1AA349;
+    }
+  }
+}

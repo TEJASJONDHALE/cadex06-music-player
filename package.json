@@ -1,0 +1,30 @@
+{
+	"name": "music-player",
+	"version": "0.0.7",
+	"description": "A music player that uses wynk music unofficial api to play music",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"typedoc": "typedoc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/darshanCommits/musicPlayer.git"
+	},
+	"author": "Darshan Kumawat",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/darshanCommits/musicPlayer/issues"
+	},
+	"homepage": "https://github.com/darshanCommits/musicPlayer#readme",
+	"dependencies": {
+		"normalize.css": "^8.0.1"
+	},
+	"devDependencies": {
+		"typedoc": "^0.25.2",
+		"typescript": "^5.2.2",
+		"vite": "^4.4.5"
+	}
+}

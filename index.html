@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saavn webMeister</title>
+  <script type="module" defer src="./src/js/app.ts"></script>
+</head>
+
+<body>
+  <header class="flex f-cen">
+    <form id="search-container" class="flex f-cen">
+      <input type="text" id="search-input" placeholder="Music doesn't sound musical %?...">
+      <button id="search-button">Search</button>
+    </form>
+  </header>
+
+  <div id="track" class="flex f-col f-cen">
+
+    <div id="track-art" class="flex">
+      <img src="https://c.saavncdn.com/113/Anjaana-Anjaani-Hindi-2010-20221211111152-150x150.jpg" alt="">
+
+      <div id="track-metadata" class="flex f-col f-cen">
+        <h3>Tujhe Bhula Diya</h3>
+        <p>Mohit Chauhan...</p>
+      </div>
+
+    </div>
+
+    <div id="custom-seekbar" class="flex f-cen">
+      <button id="play-pause">▶</button>
+      <div id="elapsed-time">00:00</div>
+      <input id="seekbar" type="range" min="0" value="0">
+      <div id="total-time">4:41</div>
+    </div>
+
+    <audio src="https://aac.saavncdn.com/664/c71ac17cd40718ab5371a9d8d86b8bcc_320.mp4">
+      Your browser does not support the audio format.
+    </audio>
+  </div>
+
+
+  <div id="list-container" class="">
+
+    <div class="list-item flex">
+      <img src="https://c.saavncdn.com/113/Anjaana-Anjaani-Hindi-2010-20221211111152-150x150.jpg" alt="">
+      <div class="flex f-col">
+        <h3>Tujhe Bhula Diya</h3>
+        <p>Mohit Chauhan...</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
